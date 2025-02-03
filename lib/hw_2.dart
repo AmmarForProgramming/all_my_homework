@@ -16,7 +16,7 @@ class hw_2 extends StatelessWidget {
               Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) =>const HomeWork()), (route) => false);
             }, icon:const Icon(Icons.arrow_back_outlined)),
             backgroundColor: Colors.blue ,
-            title: const Text("Ammar Ebrahim"),
+            title: const Text("Abdullah Mohammed"),
             actions: [IconButton(onPressed: () {
 
             }, icon:const Icon(Icons.info_outline)) ,
@@ -30,7 +30,7 @@ class hw_2 extends StatelessWidget {
           body:Column(
             children: [
               Container(
-                child: Text("Ammar Ebrahim", style: TextStyle(fontSize: 30.5),),
+                child: Text("Abdullah Mohammed", style: TextStyle(fontSize: 30.5),),
                 margin:const EdgeInsets.fromLTRB(20, 20, 20, 0),
                 padding:const EdgeInsets.all(10),
                 color: Colors.blue,

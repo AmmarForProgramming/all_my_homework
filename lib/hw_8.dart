@@ -38,7 +38,7 @@ class _hw_8State extends State<hw_8> {
               Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) =>const HomeWork()), (route) => false);
             }, icon:const Icon(Icons.arrow_back_outlined)),
           ],
-          title:const Text("Ammar Ebrahim",style:TextStyle(fontSize: 20,fontWeight: FontWeight.bold,)),
+          title:const Text("Abdullah Mohammed",style:TextStyle(fontSize: 20,fontWeight: FontWeight.bold,)),
           centerTitle:true,
 
           backgroundColor: Colors.blue,

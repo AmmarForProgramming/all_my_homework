@@ -12,7 +12,7 @@ class home extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.blue[800],
         appBar: AppBar(
-          title:const Text("Ammar Ebrahim", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
+          title:const Text("Abdullah Mohammed", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
           backgroundColor: Colors.blue,
         ),
         drawer: Drawer(
@@ -32,9 +32,9 @@ class home extends StatelessWidget {
                         child: Image.asset("assets/images/2.jpeg", fit: BoxFit.cover,),
                       )
                   ),
-                  Expanded(child: ListTile(
-                    title:const Text("Ammar Ebrahim"),
-                    subtitle:const Text("hello1mac2book3air@gmail.com"),
+                  const Expanded(child: ListTile(
+                    title: Text("Abdullah Mohammed"),
+                    subtitle: Text("abdullah20040527@gmail.com"),
                   ))
                 ],
               ),
@@ -112,7 +112,7 @@ class home extends StatelessWidget {
                 height: 10.0,
               ),
               const Text(
-                'م: عمار الشعيبي',
+                'م: عبالله محمد',
                 style: TextStyle(
                   fontSize: 30.0,
                   color: Colors.white,
@@ -145,7 +145,7 @@ class home extends StatelessWidget {
                       width: 10.0,
                     ),
                     Text(
-                      '+967775608103  - +967712159051',
+                      '+967776021747  - +967776021747',
                       style: TextStyle(
                         color: Colors.black87,
                         fontSize: 17.0,
@@ -171,8 +171,7 @@ class home extends StatelessWidget {
                     SizedBox(
                       width: 10.0,
                     ),
-                    Text(
-                      'hello1mac2book3air@gmail.com',
+                    Text('abdullah20040527@gmail.com',
                       style: TextStyle(
                         color: Colors.black87,
                         fontSize: 20.0,

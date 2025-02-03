@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
             Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) =>const HomeWork()), (route) => false);
           }, icon:const Icon(Icons.arrow_back_outlined)),
         ],
-        title:const Text("Ammar Ebrahim"),
+        title:const Text("Abdullah Mohammed"),
         backgroundColor: Colors.teal,
       ),
       drawer: Drawer(
@@ -47,7 +47,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                   SizedBox(height: 10),
                   Text(
-                    'hello1mac2book3air@gmail.com',
+                    'abdullah20040527@gmail.com',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 18,

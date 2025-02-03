@@ -27,7 +27,7 @@ class hw_1 extends StatelessWidget {
           body: Container(
             alignment: Alignment.topRight,
             child: Text(
-              "الاسم: عمار الشعيبي \n التخصص: تقنيات معلومات \n الجنسيه: يمني \n العمر:22 \n المستوى: بكلوريوس \n : الاعمال السابقة \n ..........-1 \n .........-2 \n .........-3",
+              "الاسم: عبدالله محمد \n التخصص: تقنيات معلومات \n الجنسيه: يمني \n العمر:22 \n المستوى: بكلوريوس \n : الاعمال السابقة \n ..........-1 \n .........-2 \n .........-3",
               textAlign: TextAlign.right,
               style: const TextStyle(
                 fontSize: 30,

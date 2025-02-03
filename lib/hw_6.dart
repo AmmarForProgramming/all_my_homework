@@ -15,7 +15,7 @@ class hw_6 extends StatelessWidget {
           leading: IconButton(onPressed: () {
             Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) =>const HomeWork()), (route) => false);
           }, icon:const Icon(Icons.arrow_back_outlined)),
-          title:const Text("Ammar Ebrahim"),
+          title:const Text("Abduallh Mohammed"),
         ),
         backgroundColor: Colors.brown,
         body: Center(
